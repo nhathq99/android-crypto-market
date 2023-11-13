@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context=".view.ui.coin_detail.CoinDetailActivity">
+
+    <include
+        android:id="@+id/detail_toolbar"
+        layout="@layout/toolbar_main" />
+    <include
+        android:id="@+id/coin_detail_error"
+        layout="@layout/layout_error"
+        android:visibility="gone" />
+    <include
+        android:id="@+id/coin_detail_shimmer"
+        layout="@layout/coin_detail_shimmer"
+        android:visibility="gone" />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/detail_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="@color/cornflower_blue"
+        app:tabIndicatorColor="@color/cornflower_blue"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="@color/gray"
+        android:background="@android:color/transparent">
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_chart" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exchange"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info"/>
+    </com.google.android.material.tabs.TabLayout>
+    <FrameLayout
+        android:id="@+id/frm_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</androidx.appcompat.widget.LinearLayoutCompat>

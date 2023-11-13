@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CryptoMarket</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="crypto_market">Crypto</string>
+    <string name="m">M</string>
+    <string name="splash_label">Comprehensive &amp; Powerful Crypto App</string>
+    <string name="splash_sub_label">We\'re your one-stop shop for all crypto data</string>
+    <string name="get_started">Get Started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="an_error_occurred">An Error Occurred, please try again!</string>
+    <string name="network_error">Unable to connect to your network</string>
+    <string name="price_chart">Price Chart</string>
+    <string name="exchange">Exchange</string>
+    <string name="info">Info</string>
+    <string name="_24h">24H</string>
+    <string name="_7d">7D</string>
+    <string name="_14d">14D</string>
+    <string name="_30d">30D</string>
+    <string name="_60d">60D</string>
+    <string name="_1y">1Y</string>
+    <string name="try_again">Try Again</string>
+    <string name="can_not_find_coin_data">Can not find coin data.</string>
+    <string name="history">History</string>
+    <string name="search_for_a_coin">Search for a coin...</string>
+    <string name="trending_search">Trending Search</string>
+    <string name="coins">Coins</string>
+    <string name="watch_list">Watch List</string>
+    <string name="nothing_to_show">Nothing to show.</string>
+    <string name="delete">Delete</string>
+    <string name="clear_all">Clear All</string>
+</resources>

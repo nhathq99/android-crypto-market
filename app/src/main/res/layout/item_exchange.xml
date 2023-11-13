@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="@dimen/_8sdp"
+    android:weightSum="11">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <TextView
+            android:id="@+id/tv_chain_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11ssp"
+            android:textFontWeight="600"
+            android:text="Binance"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tv_chain_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/content_bg"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_11ssp"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_4sdp"
+            android:text="Good" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_pair_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:textSize="@dimen/_11ssp"
+            android:text="BTC"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/tv_pair_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textFontWeight="600"
+            android:textSize="@dimen/_11ssp"
+            android:text="USDT"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textFontWeight="600"
+        android:textSize="@dimen/_11ssp"
+        android:text="$34,487.70"
+        android:layout_weight="3"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_24h_vol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textAlignment="textEnd"
+        android:textFontWeight="600"
+        android:textSize="@dimen/_11ssp"
+        android:text="$148,487.70"
+        android:textColor="@color/white"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

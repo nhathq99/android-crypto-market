@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ui.main.WatchListFragment">
+
+    <include
+        android:id="@+id/watch_list_toolbar"
+        layout="@layout/toolbar_main" />
+    <include
+        android:id="@+id/layout_nothing"
+        layout="@layout/layout_nothing"
+        android:visibility="gone"/>
+    <include
+        android:id="@+id/layout_error"
+        layout="@layout/layout_error"
+        android:visibility="gone"/>
+    <include
+        android:id="@+id/watch_list_shimmer"
+        layout="@layout/watch_list_shimmer"
+        android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_watch_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

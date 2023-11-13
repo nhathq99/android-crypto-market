@@ -1,0 +1,30 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.1365" />
+        <entry key="app/src/main/res/font/poppins.xml" value="0.25277777777777777" />
+        <entry key="app/src/main/res/layout-v28/activity_splash.xml" value="0.24010416666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/layout/activity_onboarding.xml" value="0.20219298245614034" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.20219298245614034" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/layout/dialog_loading.xml" value="0.20219298245614034" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.20219298245614034" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2390625" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.19035087719298247" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.20219298245614034" />
+        <entry key="app/src/main/res/layout/item_list_currency.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/toolbar_main.xml" value="0.20219298245614034" />
+        <entry key="app/src/main/res/menu/menu_bottom_nav.xml" value="0.20219298245614034" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.20219298245614034" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

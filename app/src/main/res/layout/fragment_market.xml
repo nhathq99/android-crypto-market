@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ui.main.MarketFragment">
+
+    <include
+        android:id="@+id/dashboard_toolbar"
+        layout="@layout/toolbar_main"
+        />
+    <include
+        android:id="@+id/coin_market_shimmer"
+        layout="@layout/coin_market_shimmer"
+        android:visibility="gone" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_coin_market"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

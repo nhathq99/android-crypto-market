@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_12sdp"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:focusable="true"
+    android:weightSum="10"
+    android:background="?android:attr/selectableItemBackgroundBorderless">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_20sdp"
+        android:background="@color/white_10"
+        android:layout_weight="4" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_weight="2" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_20sdp"
+        android:background="@color/white_10"
+        android:layout_weight="4" />
+</androidx.appcompat.widget.LinearLayoutCompat>
